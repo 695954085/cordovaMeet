@@ -1,0 +1,22 @@
+{
+  "name": "io.cordova.hellocordova",
+  "version": "0.0.1",
+  "displayName": "HelloCordova",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "phonegap-plugin-barcodescanner": {},
+      "cordova-plugin-barcodescanner": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "5.1.1",
+    "cordova-plugin-barcodescanner": "^0.7.4",
+    "cordova-plugin-battery-status": "^2.0.1",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-whitelist": "1"
+  }
+}
